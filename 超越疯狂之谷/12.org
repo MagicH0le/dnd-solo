@@ -1,0 +1,20 @@
+#+TITLE: 12
+当你踏入洞穴的那一刻，你感到很温暖，尽管风在隧道里发出诡异的呜呜声。
+幸运的是，你带了火把。你舒展了下被冻僵的手指，你拿出你的打火匣点燃了火把。火把散发出来的温度使得好像快把你的脸都融化了。
+你深吸一口气，沿着蜿蜒的隧道走下去，在心里记下岩石的构造，以防迷路。最近几周似乎有人或什么其他生物走过这些隧道。向前走了几分钟后，你看到前方隧道的转弯处和岔路。
+
+** 选择
+- 如果你选择继续向下走，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "9")
+  #+end_src
+
+- 如果你选择另一条更冷的路，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "22")
+  #+end_src
+
+- 如果你选择另一条更暖和的岩石路，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "54")
+  #+end_src

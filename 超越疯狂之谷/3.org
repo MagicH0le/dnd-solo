@@ -1,0 +1,19 @@
+#+TITLE: 3
+脚下的雪嘎吱作响，你沿着完好无损的城堡慢跑。就在你开始感到疲惫的时候，你发现了一个破碎的大门，那里曾经站着拿着高戟的装甲警卫。大门敞开着，破碎了，通向城堡的庭院。
+你在破门下荡来荡去，环顾四周。院子里散落着几十尊雕像，其中大部分已经破碎。你看到雕像墓地那边有两扇门。小一点的似乎是一个侍者的入口，另一个好像是警卫室的门。
+
+** 选择
+- 如果你选择搜索庭院，请执行下面的代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "43")
+  #+end_src
+
+- 如果你选择进入侍者入口，请执行下面的代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "14")
+  #+end_src
+
+- 如果你选择进入警卫室，请执行下面的代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "11")
+  #+end_src

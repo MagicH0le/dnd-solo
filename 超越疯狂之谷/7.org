@@ -1,0 +1,14 @@
+#+TITLE: 7
+你大步向前，打开了半开的门，但你很快意识到你什么也看不见——太黑了，除了模糊的轮廓什么也看不见。你摸索着从背包中拿出火把点燃，房间中嘶嘶的咯咯声让你的骨头生出了一股寒意。
+
+** 选择
+进行一个DC 10的敏捷检定
+- 如果通过，执行下面的代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "44")
+  #+end_src
+
+- 如果失败，你不能立即点燃火把，在角色卡中写下“身处黑暗”，执行下面的代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "38")
+  #+end_src

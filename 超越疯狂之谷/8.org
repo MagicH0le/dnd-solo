@@ -1,0 +1,18 @@
+#+TITLE: 8
+你很幸运，那个奇怪的怪物正忙着吃饭，没有注意到你。你扫视了一下冰冷的房间，注意到那个奇怪的生物身旁有一条小隧道。运气好的话，你可以在他不注意你的情况下走过去。
+
+** 选择
+- 如果你选择偷偷过去，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "44")
+  #+end_src
+
+- 如果你选择转过身去，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "22")
+  #+end_src
+
+- 或者，你可以抽出你的武器攻击它！执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "17")
+  #+end_src

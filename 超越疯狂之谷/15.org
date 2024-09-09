@@ -1,0 +1,20 @@
+#+TITLE: 15
+悬崖并不像你想象的那么陡峭，而且它的许多支点和落脚点都没有被冰覆盖。毫无疑问，这仍然不是一个容易的攀登，你应该小心。进行一个DC 12力量(运动)检定，检定爬上陡峭的表面的结果。
+
+** 选择
+- 如果通过，你小心的爬下悬崖并向城堡行进，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "36")
+  #+end_src
+
+- 如果失败，你从悬崖上掉了下来，受到了1d6的伤害，如果你还清醒，就一瘸一拐的朝城堡走去，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "36")
+  #+end_src
+  否则，你扭曲破碎的身体很快就会被生活在这片雪地的狼发现。。。
+
+** 结局
+很不幸，您的冒险到此结束，请重新创建角色卡，并从第一小节重新开始冒险
+#+begin_src emacs-lisp :results none
+  (goto-paragraph "1")
+#+end_src

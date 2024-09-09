@@ -1,0 +1,23 @@
+* 超越疯狂之谷
+一阵狂风吹断了恩菲斯的斗篷，似乎要把她刮倒。她吐出嘴里的冰雪，把兜帽往下拉，遮住脸。她宁愿被自己的斗篷遮住，也不愿被寒风遮住。
+独自去寻找疯狂城堡也许是她犯过的最大的错误。尽管如此，恩菲斯仍然坚信，在齐膝深的积雪中跋涉，寻找这个迷失的、冰冻的堡垒，将是对生存的终极考验。如果她能在这里活下来，她在任何地方都能活下来。
+凶猛的嚎叫像一把刀刺穿呻吟的大风。恩菲斯把手伸进戴着手套的剑上。只是苔原上的狼，她告诉自己。狼只攻击身体虚弱的动物——它们今天得另找食物了。
+
+** 关于本模组
+疯狂的城堡是一个新手向的DND 5E单人冒险。这个冒险最初是为未发行的RuneQuest: Slayers编写的，但已被改编DND。虽然你需要有一些DND的知识来玩这个冒险，但它相当适合初学者。
+GURPS Fantasy版本也可以在www.1shotadventures.com上找到。
+这个冒险最适合2级角色，尽管你也可以和1级角色和一个亲信盟友一起玩。如果你没有自己的角色，那么在冒险结束时将包含两个预先生成的角色供你选择。
+如果你之前从未玩过“Choose Your Path”冒险游戏，那么这很简单。从第一节开始。读一读，从文本中给你的选项中选择一个，然后进入标有那个编号的小节。只是不要按顺序阅读条目!当你找到任何你想要保留的物品(使用粗体标注)时，把它记在你的角色卡上。
+
+** 在开始前
+请运行下列的代码块，方便使用Org游玩该模组
+#+begin_src emacs-lisp :results none
+  (defvar module-directory default-directory)
+  (defun goto-paragraph (para)
+    "Open specific paragraph file."
+    (let ((full-path (expand-file-name (concat para ".org") module-directory)))
+      (when (file-exists-p full-path)
+        (find-file full-path))))
+#+end_src
+
+然后打开1.org，开始你的传奇冒险吧！
