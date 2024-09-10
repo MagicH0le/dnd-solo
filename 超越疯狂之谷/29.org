@@ -1,0 +1,13 @@
+#+TITLE: 29
+你小心翼翼地走上台阶，突然脚下的一些石头碎了。当你滑到台阶底部时，下巴重重地撞在大理石栏杆上。你可以进行一个DC 8敏捷(杂耍)检定或者受到1d4的坠落伤害。
+
+** 选择
+- 如果你还活着，你可以尝试重新走上台阶，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "50")
+  #+end_src
+
+- 或者，你放弃攀爬台阶沿着长廊走下去。执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "25")
+  #+end_src

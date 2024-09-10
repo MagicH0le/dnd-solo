@@ -1,0 +1,8 @@
+#+TITLE: 20
+你挖掘的速度没赶上冰魔的速度，冰魔跳上洞穴，并对你发出怒吼。你把你的武器朝向了它。
+
+** 操作
+你在角色卡上写下 *被埋伏* ，执行如下代码
+#+begin_src emacs-lisp :results none
+  (goto-paragraph "17")
+#+end_src

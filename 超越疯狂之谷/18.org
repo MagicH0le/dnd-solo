@@ -1,0 +1,20 @@
+#+TITLE: 18
+你跪在雪地里，从钥匙孔往里看。正如你所想的，门是用一种老式的锁锁着的。
+几根石柱使门固定不动。你的刀也许能做到这一点，但它太可怕了。
+由于门上使用的是古老的石锁，所以比现代的铁锁更容易破解。要撬开锁，请进行一次DC 12敏捷检定(盗贼也可以在这里使用盗贼工具熟练度检定)。
+
+** 选择
+- 如果检定成功，执行下列代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "30")
+  #+end_src
+
+- 如果检定失败，你尝试暴力破门，执行下列代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "40")
+  #+end_src
+
+- 如果检定失败且想尝试从侍者入口进入，执行下列代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "14")
+  #+end_src

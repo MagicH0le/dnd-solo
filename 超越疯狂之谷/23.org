@@ -1,0 +1,14 @@
+#+TITLE: 23
+有些挂毯还在一起，其他的则被撕裂和摧毁。其中两个挂毯尤其吸引你的眼球。一幅挂毯上画着一位穿着华丽盔甲的蓝眼睛少女，另一幅挂毯上是一把镶有符文的斧头，放在一张镀金的桌子上，正被送给一位白发苍苍的女王。
+进行一次DC 15智力(历史)检定，进一步检查这些旧挂毯。
+
+** 选择
+- 如果成功，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "57")
+  #+end_src
+
+- 如果失败，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "51")
+  #+end_src
