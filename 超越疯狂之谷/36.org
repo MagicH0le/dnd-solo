@@ -1,0 +1,14 @@
+#+TITLE: 36
+你有些酸痛和疲惫，你抬头凝视着隐约可见的城堡废墟。当风吹过破碎的塔楼时，你会听到听起来像疯子尖叫的声音，难怪他们把这个地方称为“疯狂城堡”。
+城堡的石墙上覆盖着和你的身体一样厚的冰层。运气好的话，你不用爬墙去找入口。
+
+** 选择
+- 如果你决定在城堡周围寻找入口，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "3")
+  #+end_src
+
+- 如果你决定使用岩钉和绳索攀爬墙壁到窗户那里，执行如下代码
+  #+begin_src emacs-lisp :results none
+    (goto-paragraph "35")
+  #+end_src
