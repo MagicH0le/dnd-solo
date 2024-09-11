@@ -3,7 +3,4 @@
 突然，石像鬼雕像碎裂，你跌落到雪地上。坠落使得你受到了1d4的伤害。你护着摔下来时酸痛的手臂，你决定绕着城堡转一圈，寻找另一条进去的路。
 
 ** 操作
-请执行下面的代码
-#+begin_src emacs-lisp :results none
-  (goto-paragraph "3")
-#+end_src
+转到[[file:3.org][3]]

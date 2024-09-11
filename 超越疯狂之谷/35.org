@@ -2,12 +2,5 @@
 你解下绳子和抓钩，找到了一个不错的目标--你在一扇开着的窗户附近发现一个破碎的石像鬼。要爬上陡峭、冰冷的城堡墙壁，你需要通过一个DC 15力量(运动)检定。
 
 ** 选择
-- 如果成功，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "42")
-  #+end_src
-
-- 如果失败，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "5")
-  #+end_src
+- 如果成功，转到[[file:42.org][42]]
+- 如果失败，转到[[file:5.org][5]]

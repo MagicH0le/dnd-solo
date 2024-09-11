@@ -3,12 +3,5 @@
 你踢开一些破布，你看到一把半嵌在木头里的玻璃匕首。
 
 ** 选择
-- 如果你选择尝试拔出匕首，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "24")
-  #+end_src
-
-- 如果你选择离开，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "33")
-  #+end_src
+- 如果你选择尝试拔出匕首，转到[[file:24.org][24]]
+- 如果你选择离开，转到[[file:33.org][33]]

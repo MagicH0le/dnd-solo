@@ -4,7 +4,4 @@
 你聪明的在附近的石笋上系上一根长绳子。你如果你迷路了，可以顺着绳子回到这个隧道分支。
 
 ** 操作
-执行如下代码
-#+begin_src emacs-lisp :results none
-  (goto-paragraph "37")
-#+end_src
+转到[[file:37.org][37]]

@@ -4,17 +4,6 @@
 那怪物的吼声似乎消失了，所以你现在安全了。院子里散落着几十尊雕像，其中大多数已经破碎。你看到雕像墓地那边有两扇门。较小的那扇看起来是侍者入口，另一扇门的加固程度更高，似乎是警卫室的门。
 
 ** 选择
-- 如果你选择探索这个院子，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "43")
-  #+end_src
-
-- 如果你选择前往侍者入口，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "14")
-  #+end_src
-
-- 如果你选择前往警卫室，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "11")
-  #+end_src
+- 如果你选择探索这个院子，转到[[file:43.org][43]]
+- 如果你选择前往侍者入口，转到[[file:14.org][14]]
+- 如果你选择前往警卫室，转到[[file:11.org][11]]

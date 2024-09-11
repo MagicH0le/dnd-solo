@@ -4,12 +4,5 @@
 你把 *战车玩具* 和雕像轻轻地放进你的袋子里。你的侄女可能会喜欢这个房间里唯一完好无损的小床，但当你走近时，你注意到床垫上散发出一股油腻和腐臭的气味。
 
 ** 选择
-- 如果你决定返回主路并继续前进，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "25")
-  #+end_src
-
-- 如果你拔出你的武器，掀开床垫，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "58")
-  #+end_src
+- 如果你决定返回主路并继续前进，转到[[file:25.org][25]]
+- 如果你拔出你的武器，掀开床垫，转到[[file:58.org][58]]

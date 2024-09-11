@@ -5,12 +5,5 @@
 突然，从你身后传来了冰魔的咆哮。快挖！进行一次DC 10力量(运动)检定。
 
 ** 选择
-- 如果成功，执行下面的代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "26")
-  #+end_src
-  
-- 如果失败，执行下面的代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "20")
-  #+end_src
+- 如果成功，转到[[file:26.org][26]]
+- 如果失败，转到[[file:20.org][20]]

@@ -5,7 +5,4 @@
 几分钟后，你设法突破了。你把身体从挖出来的洞里挤出来，感觉前方有坚硬如石头的东西。
 
 ** 操作
-执行如下代码
-#+begin_src emacs-lisp :results none
-  (goto-paragraph "47")
-#+end_src
+转到[[file:47.org][47]]

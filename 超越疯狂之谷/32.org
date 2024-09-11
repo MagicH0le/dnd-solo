@@ -8,17 +8,6 @@
 战士闭上眼睛休息，你决定最好现在就离开他。你回到泥泞的小路，回到主洞穴。在你的角色表上写下“拯救者”这个词。
 
 ** 选择
-- 如果你选择沿着平整小路走下去，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "9")
-  #+end_src
-
-- 如果你选择沿着结冰小路走下去，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "22")
-  #+end_src
-
-- 或者，你也可以离开洞穴，穿过雪地来到城堡，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "19")
-  #+end_src
+- 如果你选择沿着平整小路走下去，转到[[file:9.org][9]]
+- 如果你选择沿着结冰小路走下去，转到[[file:22.org][22]]
+- 或者，你也可以离开洞穴，穿过雪地来到城堡，转到[[file:19.org][19]]

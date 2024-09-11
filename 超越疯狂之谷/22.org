@@ -5,12 +5,5 @@
 你爬出小隧道，发现自己正望着一个高高的悬崖的边缘！疯狂城堡就在你的正下方。一旦你设法下了悬崖，你就接近城堡的城墙了。
 
 ** 选择
-- 如果你选择爬下悬崖，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "15")
-  #+end_src
-
-- 如果你选择试图绕着被风席卷的悬崖走，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "52")
-  #+end_src
+- 如果你选择爬下悬崖，转到[[file:15.org][15]]
+- 如果你选择试图绕着被风席卷的悬崖走，转到[[file:52.org][52]]

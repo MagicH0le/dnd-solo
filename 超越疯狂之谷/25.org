@@ -4,12 +4,5 @@
 
 ** 选择
 进行一个DC 8敏捷（杂技）检定
-- 如果成功，你小心的走入这个很大的城堡房间，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "33")
-  #+end_src
-
-- 如果失败，你从台阶上滑下并撞向了一块大石头，你受到了1d4伤害，你咒骂自己笨手笨脚的站了起来。
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "33")
-  #+end_src
+- 如果成功，你小心的走入这个很大的城堡房间，转到[[file:33.org][33]]
+- 如果失败，你从台阶上滑下并撞向了一块大石头，你受到了1d4伤害，你咒骂自己笨手笨脚的站了起来。转到[[file:33.org][33]]

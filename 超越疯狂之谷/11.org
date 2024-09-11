@@ -2,12 +2,5 @@
 你走近警卫室的门，推开它。很显然，没有推开，警卫室的门不是锁着就是被冻住了。
 
 ** 选择
-- 你可以尝试使用你的匕首撬锁，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "18")
-  #+end_src
-
-- 或者，你可以尝试暴力破门，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "40")
-  #+end_src
+- 你可以尝试使用你的匕首撬锁，转到[[file:18.org][18]]
+- 或者，你可以尝试暴力破门，转到[[file:40.org][40]]

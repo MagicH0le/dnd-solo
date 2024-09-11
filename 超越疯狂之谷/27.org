@@ -3,16 +3,6 @@
 若要追踪该生物，进行一次DC 7智力(感知)检定。游侠的熟练加值可以加倍点数。
 
 ** 选择
-- 如果成功，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "37")
-  #+end_src
-
-- 如果失败，你听见呻吟声消失了，你决定掉头回到泥泞的小路上，而不是在这个冰冷的迷宫里呆着。如果你沿着来时的路走，执行如下代码：
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "9")
-  #+end_src
-  如果你决定沿着更冷的路走，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "22")
-  #+end_src
+- 如果成功，转到[[file:37.org][37]]
+- 如果失败，你听见呻吟声消失了，你决定掉头回到泥泞的小路上，而不是在这个冰冷的迷宫里呆着。如果你沿着来时的路走，转到[[file:9.org][9]]
+- 如果你决定沿着更冷的路走，转到[[file:22.org][22]]

@@ -2,12 +2,5 @@
 冰和寒冷很快就开始使你的手指麻木，所以你决定放弃寻找。现在院子里的雪太厚了，找不到任何有价值的东西。
 
 ** 选择
-- 如果你选择进入侍从入口，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "14")
-  #+end_src
-
-- 如果你选择进入警卫室，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "11")
-  #+end_src
+- 如果你选择进入侍从入口，转到[[file:14.org][14]]
+- 如果你选择进入警卫室，转到[[file:11.org][11]]

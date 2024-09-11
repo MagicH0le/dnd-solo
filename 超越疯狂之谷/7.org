@@ -3,12 +3,5 @@
 
 ** 选择
 进行一个DC 10的敏捷检定
-- 如果通过，执行下面的代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "44")
-  #+end_src
-
-- 如果失败，你不能立即点燃火把，在角色卡中写下“身处黑暗”，执行下面的代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "38")
-  #+end_src
+- 如果通过，转到[[file:44.org][44]]
+- 如果失败，你不能立即点燃火把，在角色卡中写下“身处黑暗”，转到[[file:38.org][38]]

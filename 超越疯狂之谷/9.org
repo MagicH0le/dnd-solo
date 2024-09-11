@@ -2,17 +2,6 @@
 当你静静地沿着黑暗的隧道前进时，你听到前方传来令人厌恶的声音。你听到在你前方四十尺远的地方传来痛苦的尖叫声和可怕的撕裂声。一想到前方的路，你就浑身起鸡皮疙瘩。
 
 ** 选择
-- 如果你选择转过身选择另外一条路，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "22")
-  #+end_src
-
-- 如果你选择静静地向前走，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "31")
-  #+end_src
-
-- 如果你选择发出战吼并向前冲锋，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "49")
-  #+end_src
+- 如果你选择转过身选择另外一条路，转到[[file:22.org][22]]
+- 如果你选择静静地向前走，转到[[file:31.org][31]]
+- 如果你选择发出战吼并向前冲锋，转到[[file:49.org][49]]

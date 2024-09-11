@@ -4,12 +4,5 @@
 你凝视着高耸入云的城堡。它的石头上覆盖着和你的身体一样厚的冰层。运气好的话，你不用爬墙去找入口。
 
 ** 选择
-- 如果你决定在城堡外围寻找入口，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "3")
-  #+end_src
-
-- 如果你决定用岩钉和绳子爬到城堡墙上的窗户外，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "35")
-  #+end_src
+- 如果你决定在城堡外围寻找入口，转到[[file:3.org][3]]
+- 如果你决定用岩钉和绳子爬到城堡墙上的窗户外，转到[[file:35.org][35]]

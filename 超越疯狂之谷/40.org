@@ -2,17 +2,6 @@
 那扇旧门很重，甚至可能是锁着的，但你用尽全力推开它。进行一次DC 12强度检定来打破坚固的门。
 
 ** 选择
-- 如果成功，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "30")
-  #+end_src
-
-- 如果失败，你尝试撬开门上的锁，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "18")
-  #+end_src
-
-- 如果你尝试撬锁失败，或许可以试试从侍者入口进入，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "14")
-  #+end_src
+- 如果成功，转到[[file:30.org][30]]
+- 如果失败，你尝试撬开门上的锁，转到[[file:18.org][18]]
+- 如果你尝试撬锁失败，或许可以试试从侍者入口进入，转到[[file:14.org][14]]

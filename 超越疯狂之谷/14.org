@@ -3,12 +3,5 @@
 在挖掘一些旧物资时，你发现了一具死去侍从的骨架。你不确定它是男人还是女人，因为它的骨头周围只有破烂的布。
 
 ** 选择
-- 如果你决定搜索尸体周边的地方，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "16")
-  #+end_src
-
-- 如果你继续挖掘，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "33")
-  #+end_src
+- 如果你决定搜索尸体周边的地方，转到[[file:16.org][16]]
+- 如果你继续挖掘，转到[[file:33.org][33]]

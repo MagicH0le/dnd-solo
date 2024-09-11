@@ -4,17 +4,6 @@
 你深吸一口气，沿着蜿蜒的隧道走下去，在心里记下岩石的构造，以防迷路。最近几周似乎有人或什么其他生物走过这些隧道。向前走了几分钟后，你看到前方隧道的转弯处和岔路。
 
 ** 选择
-- 如果你选择继续向下走，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "9")
-  #+end_src
-
-- 如果你选择另一条更冷的路，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "22")
-  #+end_src
-
-- 如果你选择另一条更暖和的岩石路，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "54")
-  #+end_src
+- 如果你选择继续向下走，转到[[file:9.org][9]]
+- 如果你选择另一条更冷的路，转到[[file:22.org][22]]
+- 如果你选择另一条更暖和的岩石路，转到[[file:54.org][54]]

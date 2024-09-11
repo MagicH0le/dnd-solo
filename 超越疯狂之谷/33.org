@@ -3,12 +3,5 @@
 房间中央放着破碎的盘子和一张破碎的宴会桌。墙上挂着几幅挂毯，地板上似乎有一个大洞，下面有一幅特别破旧。
 
 ** 选择
-- 如果你选择检查地洞，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "55")
-  #+end_src
-
-- 如果你选择检查挂毯，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "23")
-  #+end_src
+- 如果你选择检查地洞，转到[[file:55.org][55]]
+- 如果你选择检查挂毯，转到[[file:23.org][23]]

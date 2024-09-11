@@ -2,12 +2,5 @@
 你默默地通过平坦的路，山洞有个急转弯。你向转弯处张望，看到一个浑身是血的巨大冰魔正在撕咬一只半死的海豹。它舔着刀子大小的爪子，似乎很享受海豹发出的可怜的尖叫声。进行一次DC 10敏捷(潜行)检定。
 
 ** 选择
-- 如果通过，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "8")
-  #+end_src
-
-- 如果失败，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "41")
-  #+end_src
+- 如果通过，转到[[file:8.org][8]]
+- 如果失败，转到[[file:41.org][41]]

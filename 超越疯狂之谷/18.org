@@ -4,17 +4,6 @@
 由于门上使用的是古老的石锁，所以比现代的铁锁更容易破解。要撬开锁，请进行一次DC 12敏捷检定(盗贼也可以在这里使用盗贼工具熟练度检定)。
 
 ** 选择
-- 如果检定成功，执行下列代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "30")
-  #+end_src
-
-- 如果检定失败，你尝试暴力破门，执行下列代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "40")
-  #+end_src
-
-- 如果检定失败且想尝试从侍者入口进入，执行下列代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "14")
-  #+end_src
+- 如果成功，转到[[file:30.org][30]]
+- 如果失败，你尝试暴力破门，转到[[file:40.org][40]]
+- 如果检定失败且想尝试从侍者入口进入，转到[[file:14.org][14]]

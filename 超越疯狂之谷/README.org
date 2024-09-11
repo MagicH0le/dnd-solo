@@ -9,15 +9,4 @@ GURPS Fantasy版本也可以在www.1shotadventures.com上找到。
 这个冒险最适合2级角色，尽管你也可以和1级角色和一个亲信盟友一起玩。如果你没有自己的角色，那么在冒险结束时将包含两个预先生成的角色供你选择。
 如果你之前从未玩过“Choose Your Path”冒险游戏，那么这很简单。从第一节开始。读一读，从文本中给你的选项中选择一个，然后进入标有那个编号的小节。只是不要按顺序阅读条目!当你找到任何你想要保留的物品(使用粗体标注)时，把它记在你的角色卡上。
 
-** 在开始前
-请运行下列的代码块，方便使用Org游玩该模组
-#+begin_src emacs-lisp :results none
-  (defvar module-directory default-directory)
-  (defun goto-paragraph (para)
-    "Open specific paragraph file."
-    (let ((full-path (expand-file-name (concat para ".org") module-directory)))
-      (when (file-exists-p full-path)
-        (find-file full-path))))
-#+end_src
-
-然后打开1.org，开始你的传奇冒险吧！
+然后转到[[file:1.org][1]]，开始你的传奇冒险吧！

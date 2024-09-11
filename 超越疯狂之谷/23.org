@@ -3,12 +3,5 @@
 进行一次DC 15智力(历史)检定，进一步检查这些旧挂毯。
 
 ** 选择
-- 如果成功，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "57")
-  #+end_src
-
-- 如果失败，执行如下代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "51")
-  #+end_src
+- 如果成功，转到[[file:57.org][57]]
+- 如果失败，转到[[file:51.org][51]]

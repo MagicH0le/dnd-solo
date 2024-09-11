@@ -8,12 +8,5 @@
 （如果你拿起这把狼牙棒，收入你的背包，它会增加4磅的负重，如果你使用它攻击，它会造成1d6的重击伤害）
 
 ** 选择
-- 如果你选择进入侍者入口，请执行下面的代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "14")
-  #+end_src
-  
-- 如果你选择进入警卫室，请执行下面的代码
-  #+begin_src emacs-lisp :results none
-    (goto-paragraph "11")
-  #+end_src
+- 如果你选择进入侍者入口，转到[[file:14.org][14]]
+- 如果你选择进入警卫室，转到[[file:11.org][11]]
